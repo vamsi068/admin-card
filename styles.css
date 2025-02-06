@@ -1,0 +1,131 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.review-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(7, 6, 6, 0.2);
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+ 
+}
+
+
+/* Header Section */
+.top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    margin-bottom: 5px;
+}
+
+.business-name {
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.follow-link {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+/* Button Section */
+.button-section {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Button Styling */
+.icon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 50px;
+    padding: 12px;
+    margin: 8px 0;
+    background: #fff;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    text-decoration: none;
+    border-color: rgb(116, 24, 103);
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(116, 24, 103);
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Improved Icon Quality */
+.icon-btn img {
+    width: 40px;  /* Keep the size you want */
+    height: 40px;
+    margin-right: 10px;
+    image-rendering: crisp-edges; /* Enhances clarity */
+    image-rendering: -webkit-optimize-contrast; /* Better contrast on WebKit browsers */
+    image-rendering: high-quality; /* Ensures HD quality */
+}
+
+/* Button Colors */
+.instagram-btn {
+    border-color: #E1306C;
+    color: #E1306C;
+}
+
+.website-btn {
+    border-color: #0073e6;
+    color: #0073e6;
+}
+
+.googlemaps-btn {
+    border-color: #ce14b2;
+    color: #e507cf;
+}
+
+.googlemaps-container {
+    display: flex;
+    gap: 10px; /* Adds space between the buttons */
+}
+
+.whatsapp-btn {
+    border-color: #25D366;
+    color: #25D366;
+}
+
+/* Hover Effects */
+.icon-btn:hover {
+    background: rgba(0, 0, 0, 0.05);
+    transform: scale(1.05);
+    
+    
+}
+
+.reviews-btn img {
+    width: 80px;  /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 8px; /* Space between image and text */
+    vertical-align: middle;
+
+}
+
